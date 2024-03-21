@@ -42,18 +42,16 @@
                     <button class="action-button">Buy</button>
                 </div>
             </div>
+
+
+
+
+            <!-- Footer -->
+            <?php include '../includes/footer.html'; ?>
+            <!-- Chatbot -->
+            <?php include '../includes/chatbot.html'; ?>
+
         </div>
-    </div>
-
-
-
-
-    <!-- Footer -->
-    <?php include '../includes/footer.html'; ?>
-    <!-- Chatbot -->
-    <?php include '../includes/chatbot.html'; ?>
-
-    </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../assets/libs/jquery/dist/jquery.min.js"></script>

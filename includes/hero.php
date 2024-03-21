@@ -8,10 +8,10 @@
         </div> -->
         <!-- <h1 class="value-proposition__title">3Chain</h1> -->
         <h1 class="value-proposition__title_closer ">
-          Your Gateaway to Investment
+          Your Gateway to Financial Literacy
           <span class="text-switcher text text--small" data-hold-time="1000" data-switch-content='[ " - Web3 ", " - Blockchain "," - FinTech "]'></span>
         </h1>
-        <p class="text text--small text--regular">Explore the Future of Learning. Immerse yourself in a dynamic world of investment education. Discover, Learn, and Master investing knowledge with interactive challenges, AI-guided assistance, and a vibrant community. Join us in shaping the digital landscape of tomorrow.</p>
+        <p class="text text--small text--regular">Explore the future of learning. Immerse yourself in a dynamic world of financial education. Discover, learn, and master financial knowledge with interactive challenges, AI-guided assistance, and a vibrant community. Join us in shaping the digital landscape of tomorrow.</p>
         <button class="value-proposition__button btn btn--flex btn--accent" onclick="redirectToLoginPage()">
           <span class="text--standart text--medium">Start Learning</span>
           <div class="chiron-icon-container">

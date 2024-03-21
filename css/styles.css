@@ -254,6 +254,7 @@ a {
   width: 24px;
   height: 24px;
   cursor: pointer;
+  transition: ease-out 300ms;
 }
 
 .social-icon:hover {
@@ -846,6 +847,7 @@ a {
 
 .our-features .banner__text {
   margin-bottom: 3.2rem;
+  margin-right: 40px;
 }
 
 .banner-bottom-margin {

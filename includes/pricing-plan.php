@@ -29,8 +29,8 @@
           <div class="text text--medium text--regular">RM59/month</div>
           <ul class="features">
             <li><i class="fas fa-check-circle"></i> All In Premium Plan</li>
-            <li><i class="fas fa-check-circle"></i> Unlimited AI-Assistance</li>
             <li><i class="fas fa-check-circle"></i> Access to Forum</li>
+            <li><i class="fas fa-check-circle"></i> Unlimited AI-Assistance</li>
 
           </ul>
           <button class="value-proposition__button btn btn--accent basic-button">Get VIP Access</button>

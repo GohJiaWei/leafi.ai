@@ -7,18 +7,18 @@
           </a>
           <div class="back">
             <div>
-              <p class="text text--smallcloser">Begin your journey into the world of investment by creating your personalized account or logging in to unlock exclusive access to our immersive investment learning platform.</p>
+              <p class="text text--smallcloser">Begin your journey into the world of financial management by creating your personalized account or logging in to unlock exclusive access to our immersive financial learning platform.</p>
               <button class="value-proposition__button btn btn--accent" onclick="redirectToLoginPage()">Start Learning</button>
             </div>
           </div>
         </div>
         <div class="card">
           <a href="#!" class="front">
-            <p class="text title--small">Step 2: Explore Investment Concepts.</p>
+            <p class="text title--small">Step 2: Explore Financial Concepts.</p>
           </a>
           <div class="back">
             <div>
-              <p class="text text--smallcloser ">Navigate through our interactive modules and unlock the secrets of realistic simulations, and quizzes to suit all skill levels. Learn budgeting, investment strategies, and more. Engage with cutting-edge content designed to expand your understanding and ignite your curiosity.</p>
+              <p class="text text--smallcloser ">Embark on an enriching journey through our interactive modules, where you'll uncover the secrets of lifelike simulations and diverse quizzes, tailored to every skill level. Explore essential topics such as budgeting, financial strategies, and beyond, while immersing yourself in cutting-edge content crafted to deepen your understanding and spark curiosity.</p>
               <button class="value-proposition__button btn btn--accent" onclick="redirectToLoginPage()">Start Learning</button>
             </div>
           </div>
@@ -29,7 +29,7 @@
           </a>
           <div class="back">
             <div>
-              <p class="text text--smallcloser">Validate your mastery of investment concepts by completing our comprehensive learning modules. Achieve proficiency and unlock certification badges that showcase your expertise to the world. Empower yourself with credentials recognized across industries and join the ranks of investment innovators.</p>
+              <p class="text text--smallcloser">Validate your mastery of financial concepts by completing our comprehensive learning modules. Achieve proficiency and unlock certification badges that showcase your expertise to the world. Empower yourself with credentials recognized across industries and join the ranks of financial literacy innovators.</p>
               <button class="value-proposition__button btn btn--accent" onclick="redirectToLoginPage()">Start Learning</button>
             </div>
           </div>

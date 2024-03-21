@@ -4,7 +4,7 @@
       <div class="grid grid--1x2 grid--centered banner-bottom-margin">
         <div class="banner banner--left">
           <h2 class="banner__title">Interactive Learning</h2>
-          <p class="banner__text text text--small text--regular text--muted">Engage actively with challenges to reinforce learning and explore complex topics in investment at your own pace.</p>
+          <p class="banner__text text text--small text--regular text--muted">Participate actively in challenges to reinforce learning and explore complex topics in financial literacy at your own pace.</p>
           <button class="btn btn--accent" onclick="redirectToLoginPage()">
             <span class="text--standart text--medium">Discover</span>
           </button>
@@ -16,7 +16,7 @@
         <img src="Image_used\landing_page\feature-2.png" alt="Currency statistics" style="width: 80%" />
         <div class="banner">
           <h2 class="banner__title">AI-Powered Assistance</h2>
-          <p class="banner__text text text--small text--regular text--muted">Get personalized support and real-time feedback from our AI assistant.</p>
+          <p class="banner__text text text--small text--regular text--muted">Implement trained and prompted ChatGPT AI assistance for precise responses to user inquiries. Create visualizations including graphics and videos for intuitive understanding through multimedia which moving beyond text explanations</p>
           <button class="btn btn--accent" onclick="redirectToLoginPage()">
             <span class="text--standart text--medium">Discover</span>
           </button>
