@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>3Chain.ai</title>
+  <title>leafi.ai</title>
   <link rel="shortcut icon" type="image/png" href="../assets/images/logos/logo.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
   <link rel="stylesheet" href="../assets/css/chatbot.css" />
@@ -15,18 +15,17 @@
 
 <body>
   <!--  Body Wrapper -->
-  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-    data-sidebar-position="fixed" data-header-position="fixed">
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed">
 
     <!-- Sidebar Start -->
-    <?php include 'includes/sidebar.html';?>
+    <?php include 'includes/sidebar.html'; ?>
     <!--  Sidebar End -->
 
     <!--  Main wrapper -->
     <div class="body-wrapper">
 
       <!--  Header Start -->
-      <?php include 'includes/header.html';?>
+      <?php include 'includes/header.html'; ?>
       <!--  Header End -->
       <div class="container-hash">
         <h1>SHA256 Hash</h1>
@@ -49,61 +48,60 @@
 
           </form>
         </div>
-        
-      <button id="toggleDescription" class="btn btn-primary">How It Works</button>
 
-      <div class="descriptions-container">
-        <div class="description" id="description1">
-          <h3> Learn The Concept</h3>
+        <button id="toggleDescription" class="btn btn-primary">How It Works</button>
 
-          <p>The SHA256 hash is a cryptographic function that converts input data into a fixed-size string of characters. It is commonly used for data integrity verification and digital signatures.</p>
-        </div>
+        <div class="descriptions-container">
+          <div class="description" id="description1">
+            <h3> Learn The Concept</h3>
 
-        <div class="description" id="description2">
-          <h3> Learn The Code</h3>
-          <p>
-            &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"&gt;&lt;/script&gt;
+            <p>The SHA256 hash is a cryptographic function that converts input data into a fixed-size string of characters. It is commonly used for data integrity verification and digital signatures.</p>
+          </div>
+
+          <div class="description" id="description2">
+            <h3> Learn The Code</h3>
+            <p>
+              &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"&gt;&lt;/script&gt;
               function sha256(data) {
-                return CryptoJS.SHA256(data).toString(CryptoJS.enc.Hex);
+              return CryptoJS.SHA256(data).toString(CryptoJS.enc.Hex);
               }
-            &lt;/script&gt;
-          </p>
+              &lt;/script&gt;
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
-  <script>
-    function sha256(data) {
-      return CryptoJS.SHA256(data).toString(CryptoJS.enc.Hex);
-    }
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+      <script>
+        function sha256(data) {
+          return CryptoJS.SHA256(data).toString(CryptoJS.enc.Hex);
+        }
 
-    function updateHash() {
-      const data = document.getElementById('data').value; 
-      const hash = sha256(data); 
-      document.getElementById('hash').value = hash; 
-    }
+        function updateHash() {
+          const data = document.getElementById('data').value;
+          const hash = sha256(data);
+          document.getElementById('hash').value = hash;
+        }
 
-    document.getElementById('data').addEventListener('input', updateHash);
+        document.getElementById('data').addEventListener('input', updateHash);
 
-    document.getElementById('toggleDescription').addEventListener('click', function() {
-      var descriptions = document.querySelectorAll('.description');
-      descriptions.forEach(function(description) {
-        description.style.display = (description.style.display === 'none') ? 'block' : 'none';
-      });
-    });
+        document.getElementById('toggleDescription').addEventListener('click', function() {
+          var descriptions = document.querySelectorAll('.description');
+          descriptions.forEach(function(description) {
+            description.style.display = (description.style.display === 'none') ? 'block' : 'none';
+          });
+        });
+      </script>
 
-  </script>
 
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
       <!-- Footer -->
-      <?php include '../includes/footer.html';?>
+      <?php include '../includes/footer.html'; ?>
 
       <!-- Chatbot -->
-      <?php include '../includes/chatbot.html';?>
+      <?php include '../includes/chatbot.html'; ?>
 
     </div>
   </div>
@@ -115,7 +113,7 @@
   <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
   <script src="../assets/js/dashboard.js"></script>
   <script src="../assets/js/chatbot.js"></script>
-  
+
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>3Chain.ai</title>
+  <title>leafi.ai</title>
   <link rel="shortcut icon" type="image/png" href="../assets/images/logos/logo.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
   <link rel="stylesheet" href="../assets/css/chatbot.css" />
@@ -15,46 +15,45 @@
 
 <body>
   <!--  Body Wrapper -->
-    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-        data-sidebar-position="fixed" data-header-position="fixed">
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed">
 
-        <!-- Sidebar Start -->
-        <?php include 'includes/sidebar.html';?>
-        <!--  Sidebar End -->
+    <!-- Sidebar Start -->
+    <?php include 'includes/sidebar.html'; ?>
+    <!--  Sidebar End -->
 
-        <!--  Main wrapper -->
-        <div class="body-wrapper">
-            <!-- Header Start -->
-            <?php include 'includes/header.html';?>
-            <!-- Header End -->
-            <div class="container-cyptowallet">
-                <!-- Video Section -->
-                <div class="video-section">
-                    <h1>Cryptowallet</h1>
-                    <video controls>
-                    <source src="../assets/VR/c8-1.MP4" type="video/mp4">
-                    Your browser does not support the video tag.
-                    </video>
-                </div>
-
-                <!-- Action Buttons -->
-                <div class="action-buttons">
-                    <button class="action-button">Receive</button>
-                    <button class="action-button">Buy</button>
-                </div>
-            </div>
+    <!--  Main wrapper -->
+    <div class="body-wrapper">
+      <!-- Header Start -->
+      <?php include 'includes/header.html'; ?>
+      <!-- Header End -->
+      <div class="container-cyptowallet">
+        <!-- Video Section -->
+        <div class="video-section">
+          <h1>Cryptowallet</h1>
+          <video controls>
+            <source src="../assets/VR/c8-1.MP4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+          <button class="action-button">Receive</button>
+          <button class="action-button">Buy</button>
+        </div>
+      </div>
     </div>
+  </div>
 
 
 
 
-    <!-- Footer -->
-    <?php include '../includes/footer.html';?>
-    <!-- Chatbot -->
-    <?php include '../includes/chatbot.html';?>
+  <!-- Footer -->
+  <?php include '../includes/footer.html'; ?>
+  <!-- Chatbot -->
+  <?php include '../includes/chatbot.html'; ?>
 
-    </div>
+  </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
@@ -65,7 +64,7 @@
   <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
   <script src="../assets/js/dashboard.js"></script>
   <script src="../assets/js/chatbot.js"></script>
-  
+
 </body>
 
 </html>
