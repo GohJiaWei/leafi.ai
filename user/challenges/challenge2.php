@@ -29,7 +29,7 @@
             <div class="container-cyptowallet">
                 <!-- Video Section -->
                 <div class="video-section">
-                    <h1>Cryptowallet</h1>
+                    <h1>Cryptocurrency wallet</h1>
                     <video controls>
                         <source src="../assets/VR/c8-1.MP4" type="video/mp4">
                         Your browser does not support the video tag.

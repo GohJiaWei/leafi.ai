@@ -26,7 +26,7 @@
       <div class="grid grid--1x2 grid--centered">
         <div class="banner banner--left">
           <h2 class="banner__title">Immersive Simulation</h2>
-          <p class="banner__text text text--small text--regular text--muted">Immerse yourself in a risk-free environment, engaging with Web3 and Blockchain technologies, while enhancing your decision-making skills through the integration of Virtual Reality (VR).</p>
+          <p class="banner__text text text--small text--regular text--muted">Immerse yourself in a risk-free environment, engaging with financial literacy knowledge, while enhancing your decision-making skills through the integration of Virtual Reality (VR).</p>
           <button class="btn btn--accent" onclick="redirectToLoginPage()">
             <span class="text--standart text--medium">Learn More</span>
           </button>

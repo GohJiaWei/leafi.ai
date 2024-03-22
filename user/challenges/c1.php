@@ -28,7 +28,7 @@
       <?php include 'includes/header.html'; ?>
       <!--  Header End -->
       <div class="container-hash">
-        <h1>SHA256 Hash</h1>
+        <h1>Blockchain Hash</h1>
         <div class="well" id="well1">
           <form class="form-horizontal">
 
